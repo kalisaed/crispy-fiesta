@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: hsl(210, 10%, 33%);
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+}
+
+header,
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 350px;
+    gap: 28px;
+}
+
+header .bg {
+    background: url(./images/bg-header-desktop.png);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 170px 0 50px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+header img {
+    width: 90px;
+}
+
+header h1,
+header span,
+header {
+    position: relative;
+    bottom: 55px;
+}
+
+.button a {
+    position: relative;
+    bottom: 20px;
+}
+
+header span {
+    color: hsl(201, 11%, 66%);
+    max-width: 550px;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    border-radius: 85px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.left {
+    background: hsl(171, 66%, 44%);
+    box-shadow: 0px 1.5px 5px 0px hsl(171, 90%, 44%);
+}
+
+.right {
+    background: hsl(233, 100%, 69%);
+    box-shadow: 0px 1.5px 5px 0px hsl(233, 100%, 69%);
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 300px;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    margin: 65px 0;
+    position: relative;
+    top: 60px;
+}
+
+.text p {
+    max-width: 630px;
+    color: hsl(201, 11%, 66%);
+    line-height: 25px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    min-height: 450px;
+    position: relative;
+}
+
+nav img {
+    position: relative;
+    right: 8%;
+    max-width: 85%;
+}
+
+.text_1 {
+    margin: 11% 0;
+    line-height: 30px;
+}
+
+.text_2,
+.text_3 {
+    position: relative;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 110px;
+}
+
+.text_2 p,
+.text_3 p {
+    max-width: 43%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.text_2 img {
+    margin-top: 35px;
+    max-width: 90%;
+    min-width: 50%;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin: 50px;
+    width: 84%;
+}
+
+.icons img {
+    margin: 0 0 15px 0;
+}
+
+.icons .black_list p {
+    max-width: 55%;
+}
+
+.icons .text_A p {
+    max-width: 80%;
+}
+
+.icons .preview p {
+    max-width: 85%;
+}
+
+.logos img {
+    max-width: 110px;
+    min-width: 70px;
+}
+
+.p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.last {
+    height: 350px;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.logos {
+    display: flex;
+    margin: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 110px;
+}
+
+.last .button a {
+    text-decoration: none;
+    color: white;
+    border-radius: 85px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.last h2 {
+    margin-bottom: 10px;
+}
+
+.last p {
+    max-width: 40%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.footer {
+    background: hsla(202, 11%, 66%, 0.489);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .logo {
+    width: 4%;
+}
+
+.two_f,
+.one_f {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .a {
+    position: relative;
+    bottom: 20px;
+}
+
+.last .button {
+    margin-top: 15px;
+}
+
+.madia {
+    display: flex;
+    gap: 15px;
+}
+
+.last .button .left {
+    background: hsl(171, 66%, 44%);
+    box-shadow: 0px 1.5px 5px 0px hsl(171, 90%, 44%);
+}
+
+.last .button .right {
+    background: hsl(233, 100%, 69%);
+    box-shadow: 0px 1.5px 5px 0px hsl(233, 100%, 69%);
+}
+@media (max-width:750px){
+    .button{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .bg{
+        background: url(./images/bg-header-mobile.png);
+    }
+    .button a{
+        width: 250px;
+        height: 30px;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+    }
+    header h1{
+        width: 70%;
+        text-align: center;
+    }
+    header span{
+        width: 68%;
+    }
+    .logos{
+        display: flex;
+        flex-direction: column;
+        display: 25px;
+    }
+    .text{
+        top: 0;
+    }
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    nav img{
+        position: relative;
+        left: 10px;
+    }
+    .icons{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+        height: 400px;
+        text-align: center;
+        gap: 40px;
+        justify-content: space-around;
+    }
+    .footer .logo{
+    width: 60px;
+    position: relative;
+    top: 10px;
+    }
+    .two_f{
+        position: relative;
+        bottom: 15px;
+        gap: 35px;
+    }
+    .madia{
+        gap: 40px;
+        position: relative;
+        bottom: 20px;
+    }
+
+}
